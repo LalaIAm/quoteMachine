@@ -1,0 +1,112 @@
+/*fonts */
+
+$fibonaccy: 'fibonaccy journey',
+cursive;
+$cairo: 'Cairo',
+sans-serif;
+$nova: 'Ibarra Real Nova',
+serif;
+
+/*colors */
+$light: #f4f7f4;
+$lightAccent: #738aaf;
+$main: #0b6f56;
+$darkAccent: #b0445a;
+$dark: #1d131e;
+
+body {
+    background-color: $dark;
+    color: $lightAccent;
+    font-size: 10px;
+
+}
+
+
+header {
+    background-color: $lightAccent;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: $darkAccent;
+    display: flex;
+    height: 5.5rem;
+
+    h1 {
+        font-size: 4rem;
+        font-family: $nova;
+    }
+}
+
+#container {
+    display: flex;
+    padding: 3.5rem;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    #quote-box {
+        background-color: $light;
+        padding: 3rem;
+        border-radius: 15px;
+        max-width: 75%;
+
+        #quote-title {
+            font-size: 2rem;
+            font-family: $fibonaccy;
+            margin-bottom: .8rem;
+        }
+
+        #text {
+            font-size: 2.3rem;
+            font-family: $cairo;
+            color: $main;
+        }
+
+        #author {
+            font-size: 1.8rem;
+            text-align: right;
+            font-family: $fibonaccy;
+            margin-top: 1.8rem;
+            color: $lightAccent;
+        }
+
+        #btn-box {
+            width: 50%;
+            display: flex;
+            justify-content: space-evenly;
+
+            .btn {
+                background-color: $darkAccent;
+                border: none;
+                border-radius: 5px;
+                outline: transparent;
+                box-shadow: 3px 3px 6px rgba(0, 0, 0, .5);
+                transition: all .5s ease-in;
+                cursor: pointer;
+
+            }
+
+            #change-quote {
+                color: $light;
+                font-family: $nova;
+                font-size: 1.3rem;
+                padding: .5rem;
+            }
+
+            #tweet {
+                color: $darkAccent;
+                background-color: $light;
+                font-size: 3rem;
+            }
+
+            .btn:hover {
+                background-color: $lightAccent;
+                box-shadow: none;
+                color: $dark;
+            }
+
+
+
+        }
+    }
+}

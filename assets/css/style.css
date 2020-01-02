@@ -1,0 +1,71 @@
+/*fonts */
+/*colors */
+body {
+  background-color: #1d131e;
+  color: #738aaf;
+  font-size: 10px; }
+
+header {
+  background-color: #738aaf;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: #b0445a;
+  display: flex;
+  height: 5.5rem; }
+  header h1 {
+    font-size: 4rem;
+    font-family: "Ibarra Real Nova", serif; }
+
+#container {
+  display: flex;
+  padding: 3.5rem;
+  justify-content: center;
+  align-items: center;
+  height: 100%; }
+  #container #quote-box {
+    background-color: #f4f7f4;
+    padding: 3rem;
+    border-radius: 15px;
+    max-width: 75%; }
+    #container #quote-box #quote-title {
+      font-size: 2rem;
+      font-family: "fibonaccy journey", cursive;
+      margin-bottom: .8rem; }
+    #container #quote-box #text {
+      font-size: 2.3rem;
+      font-family: "Cairo", sans-serif;
+      color: #0b6f56; }
+    #container #quote-box #author {
+      font-size: 1.8rem;
+      text-align: right;
+      font-family: "fibonaccy journey", cursive;
+      margin-top: 1.8rem;
+      color: #738aaf; }
+    #container #quote-box #btn-box {
+      width: 50%;
+      display: flex;
+      justify-content: space-evenly; }
+      #container #quote-box #btn-box .btn {
+        background-color: #b0445a;
+        border: none;
+        border-radius: 5px;
+        outline: transparent;
+        box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+        transition: all .5s ease-in;
+        cursor: pointer; }
+      #container #quote-box #btn-box #change-quote {
+        color: #f4f7f4;
+        font-family: "Ibarra Real Nova", serif;
+        font-size: 1.3rem;
+        padding: .5rem; }
+      #container #quote-box #btn-box #tweet {
+        color: #b0445a;
+        background-color: #f4f7f4;
+        font-size: 3rem; }
+      #container #quote-box #btn-box .btn:hover {
+        background-color: #738aaf;
+        box-shadow: none;
+        color: #1d131e; }
+
+/*# sourceMappingURL=style.css.map */
